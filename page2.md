@@ -4,9 +4,8 @@
         MathJax.Hub.Config({
             tex2jax: {
             skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']],
-            displayMath: [["$$","$$"]]
-            }
+            inlineMath: [ ["\\$", "\\$"], ["\\(", "\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ]
+          }
         });
     </script>
 </head>
@@ -22,7 +21,7 @@
       $$ = \frac{e^{-x}}{(1+e^{-x})^2} $$
       $$ = \frac{1 + e^{-x} - 1}{(1+e^{-x})^2} $$
       $$ = \frac{1}{(1+e^{-x})}(1-\frac{1}{(1+e^{-x})}) $$
-      $$ f'(x) = f(x)(1-f(x)) $$
+      - $ f'(x) = f(x)(1-f(x)) $
 - 损失函数 (Loss Function)
   - 当下网络使用 均方差 ( 见函数: calculate_total_error )
 
