@@ -1,6 +1,6 @@
 ## Welego
 
-  Just for fun...
+  GitHub Page.
 
 
 ### Project
